@@ -1,68 +1,50 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+#  WhatsApp Web Clone - React.js + Firebase
 
-## Available Scripts
+# PROJETO EM DESENVOLVIMENTO 
 
-In the project directory, you can run:
+## Descrição
+Projeto em desenvolvimento seguindo passo a passo apresentado em live do canal https://www.youtube.com/c/BoniekyLacerdaLeal/featured , com o objetivo de construir o frontend do Whatsapp web utilizando React.js + firebase para fortalecer os conhecimentos na ferramenta. 
 
-### `yarn start`
+Utilizado: React.js, Javascript e CSS. 
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Índice
+- [Requisitos](#Requisitos)
+- [Instalação](#Instalação)
+- [Uso](#Uso)
+- [Links](#Links)
+- [Desenvolvimento](#Desenvolvimento)
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
 
-### `yarn test`
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Requisitos
+- Siga os passos de instalação abaixo. 
 
-### `yarn build`
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Instalação
+- Utilizar o comando
+  - No terminal do seu Vscode, utilizar o comando: 
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+  ``` 
+  npm install 
+  ```
+Obs: Ele é responsável por instalar todas as dependências de desenvolvimento utilizadas no projeto, como o pacote node_modules. Elas serão responsáveis pelo funcionamento correto da aplicação.  
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `yarn eject`
+## Uso
+Para rodar a aplicação:
+- No terminal do seu Vscode, utilize o comando:
+```
+npm start
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+A aplicação deverá abrir automaticamente em `http://localhost:3000/`
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Links 
+A live completa com maiores explicações sobre o projeto está disponível no link: https://www.youtube.com/watch?v=BkX4niTo9Ow&t=4637s&ab_channel=BoniekyLacerda
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Desenvolvimento 
+Importante frisar que o projeto ainda está em desenvolvimento e é apresentado como projeto de conhecimentos básicos/ iniciantes para profissionais que tem interesse em aprender react.js
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Ele não é um projeto completo, com front, back e database.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+Essa é a primeira versão do projeto, então estou seguindo fielmente o que foi apresentado em live, em versões futuras ele será refatorado conforme meus conhecimentos e capacidades.

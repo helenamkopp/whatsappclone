@@ -1,0 +1,68 @@
+.chatListItem {
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  height: 70px;
+}
+
+.chatListItem:hover {
+  background-color: #f5f5f5;
+}
+
+.chatListItem.active {
+  background-color: #ebebeb;
+}
+
+.chatListItem--avatar {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  margin-left: 15px;
+}
+
+.chatListItem--lines {
+  flex: 1;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-bottom: 1px solid #eee;
+  padding-right: 15px;
+  margin-left: 15px;
+
+  flex-wrap: wrap; /*para fazer funcionar os 3 pontinhos*/
+  min-width: 0; /*para fazer funcionar os 3 pontinhos*/
+
+}
+
+.chatListItem--line {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.chatListItem--name {
+  font-size: 17px;
+  color: #000;
+}
+
+.chatListItem--date {
+  font-size: 12px;
+  color: #999;
+}
+
+.chatListItem--lastMsg {
+  font-size: 14px;
+  color: #999;
+  display: flex;
+  width: 100%;
+}
+
+.chatListItem--lastMsg p {
+  overflow: hidden; /* codigo para deixar os 3 pontinhos */
+  white-space: nowrap; /* pra ele nao ir pra linha de baixo, ficar tudo sempre em uma linha*/
+  text-overflow: ellipsis; /*codigo p deixar os 3 pontinhos*/
+  margin: 0;
+}
+
