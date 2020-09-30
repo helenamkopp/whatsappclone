@@ -49,6 +49,8 @@
   justify-content: center;
   align-items: center;
   cursor: pointer;
+  overflow: hidden; /*esta escondendo o close dos emojis qndo nao esta aberto */
+  transition: all ease 0.3s; /*empurra a animação nos botoes*/
 
 }
 
@@ -57,19 +59,20 @@
   overflow-y: auto; /*scroll*/
   background-color: #e5ddd5;
   background-size: cover;
-  background-position: center;
+  background-position: top;
   background-image: url('https://user-images.githubusercontent.com/15075759/28719144-86dc0f70-73b1-11e7-911d-60d70fcded21.png');
 
 }
 
 .chatWindow--footer {
   height: 62px;
-  display: flex;
+  display: flex; /* aqui por padrao o flex directon já é o row */
   align-items: center;
 }
 
 .chatWindow--pre {
   display: flex;
+  margin: 0 15px;
 }
 
 .chatWindow--inputarea{
@@ -78,11 +81,11 @@
 
 .chatWindow--input {
   width: 100%;
-  height: 40px;
+  height: 40px; /* altura padrao utilizada de inputs */
   border: none;
   outline: none;
   background-color: #fff;
-  border-radius: 4px;
+  border-radius: 20px;
   font-size: 15px;
   color: #4a4a4a;
   padding-left: 15px;
@@ -90,5 +93,23 @@
 
 .chatWindow--pos {
   display: flex;
+  margin: 0 15px;
 }
 
+.chatWindow--emojiarea {
+  height: 200px;
+  overflow-y: hidden; /* se ele passar por cima do meu input - e vai passar - ele corta essa caixa e deixa o tamanho certo */
+  transition: all ease 0.3s;
+}
+
+
+/* essa parte dos emojis já vem com o css */
+aside.emoji-picker-react {
+  width: auto;
+  background: none;
+}
+
+.emoji-picker-react .emoji-group:before {
+  background: none;
+
+}
